@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game | Rock,Paper,Scissor </title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<!-- ✊  ✌️  ✋ -->
+
+<body>
+    <main>
+
+
+        <!-- RESULT OUTCOME-->
+        <div class="result"> Lets Play! </div>
+        <br>
+
+
+
+        <!-- PLAY GAME  -->
+        <div class="playGame">
+            <!-- userTurn emojis : -->
+            <div class="playGame_userTurn">
+                <h1>You</h1>
+                <div class="userChoice_emoji">🤜</div>
+            </div>
+
+            <!-- VS text -->
+            <div class="vs"> VS </div>
+
+            <!-- compTurn emoji -->
+            <div class="playGame_compTurn">
+                <h1>Comp</h1>
+                <div class="compChoice_emoji">🤛</div>
+            </div>
+        </div>
+        <br>
+
+
+
+
+            <!-- SCORE BOARD -->
+        <div class="scoreBoard">
+            <!-- user score  -->
+            <div class="user_scoreBoard">
+                <div class="userScore">0</div>
+                <h1> You </h1>
+            </div>
+
+            <!-- comp score -->
+            <div class="comp_scoreBoard">
+                <div class="compScore">0</div>
+                <h1> Comp </h1>
+            </div>
+        </div>
+        <br>
+
+
+
+    
+
+        <!-- User : Choose the below options -->
+        <div class="user_chooseEmoji">
+            <h1>Choose : </h1>
+       
+            <!-- rock emoji with caption -->
+            <div class="rock_emoji">
+                <span class="rockEmo emoji" data-choice="rock">✊</span>
+                <span id="rock_text"> Rock </span>
+            </div>
+            <!-- paper emoji with caption -->
+            <div class="paper_emoji" >
+                <span class="paperEmo emoji" data-choice="paper"> ✋</span>
+                <span id="paper_text"> Paper </span>
+            </div>
+            <!-- scissor emoji with caption -->
+            <div class="scissor_emoji" >
+                <span class="scissorEmo emoji" data-choice="scissor"> ✌️ </span>
+                <span id="scissor_text"> Scissor </span>
+            </div>
+        </div>
+
+    </main>
+</body>
+<script src="game.js"></script>
+
+
+</html>
